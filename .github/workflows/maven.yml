@@ -28,6 +28,12 @@ jobs:
       with:
         name: Package
         path: staging
+    - uses: HurricanKai/Publish-Docker-Github-Action@master
+      with:
+       name: madhu216/ecommerce
+       username: madhu216
+       password: madhu216@216
+       dockerfile: Dockerfile
 
       
     
