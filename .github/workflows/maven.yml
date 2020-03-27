@@ -32,7 +32,7 @@ jobs:
       env:
         GITHUB_TOKEN: 9021b1208eda164e342460a4c9059c61e6fc10ec
         SONAR_TOKEN: 90964d895a53d305f008f52337a381e0db35f973
-      run: mvn -B admin:admin -Dsonar.host.url=http://18.223.76.84:9000/projects -Dsonar.organization=ecommerce 
+      run: mvn -B sonar:sonar -Dsonar.host.url=http://18.223.76.84:9000 -Dsonar.organization=ecommerce 
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
        name: madhu216/ecommerce
