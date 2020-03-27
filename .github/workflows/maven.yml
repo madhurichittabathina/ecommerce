@@ -28,9 +28,6 @@ jobs:
       with:
         name: Package
         path: staging
-    sonarQubeTrigger:
-    name: SonarQube Trigger
-    - uses: actions/checkout@master
     - name: SonarQube Scan
       uses: kitabisa/sonarqube-action@master
       with:
