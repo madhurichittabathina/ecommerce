@@ -28,11 +28,13 @@ jobs:
       with:
         name: Package
         path: staging
-    - name: SonarQube Scan
-      uses: kitabisa/sonarqube-action@master
+    - name: Scan code with sonarqube
+      uses: minddocdev/sonarqube-action@master
       with:
-        host: http://18.223.76.84:9000/projects
+        app: sonarqube
+        baseDir: ecommerce/sonarqube
         login: 90964d895a53d305f008f52337a381e0db35f973
+        url: http://18.223.76.84:9000/projects 
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
        name: madhu216/ecommerce
