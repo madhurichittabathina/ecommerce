@@ -38,7 +38,7 @@ jobs:
          -Dsonar.login=c595b1ae1144a3ccd3b5fb493c0e98df3f03896c
          -Dsonar.organization=1corp
          -Dsonar.host.url=http://18.224.24.91:9000 \
-         -Dsonar.projectKey=ecommerce \
+         -Dsonar.projectKey=ecommerce
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
        name: madhu216/ecommerce
