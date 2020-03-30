@@ -35,10 +35,10 @@ jobs:
        # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
        GITHUB_TOKEN: 9021b1208eda164e342460a4c9059c61e6fc10ec
       run: sonar-scanner
-         -Dsonar.login=c595b1ae1144a3ccd3b5fb493c0e98df3f03896c
-         -Dsonar.organization=1corp
-         -Dsonar.host.url=http://18.224.24.91:9000 \
-         -Dsonar.projectKey=ecommerce
+         -Dsonar.login=493cb8b8aba9bdbe6b3b9b7792d0b2a26614b776
+         -Dsonar.organization=madhurichittabathina
+         -Dsonar.host.url=https://sonarcloud.io
+         -Dsonar.projectKey=madhurichittabathina_ecommerce
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
        name: madhu216/ecommerce
