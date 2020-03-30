@@ -31,7 +31,7 @@ jobs:
     - name: Analyse with Sonar
       env:
         GITHUB_TOKEN: 9021b1208eda164e342460a4c9059c61e6fc10ec
-        SONAR_TOKEN: c6320e5147678179b7b4f369f5e52942283655cd
+        SONAR_TOKEN: c595b1ae1144a3ccd3b5fb493c0e98df3f03896c
       run: mvn -B admin:admin -Dsonar.host.url=http://18.224.24.91:9000/projects -Dsonar.organization=ecommerce
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
