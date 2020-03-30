@@ -31,14 +31,14 @@ jobs:
     - name: SonarQube Scan
       uses: kitabisa/sonarqube-action@v0.0.1
       with:
-      # SonarQube server URL
-      host: http://18.224.24.91:9000/
-      # Set the sonar.projectBaseDir analysis property
-      projectBaseDir: # optional, default is .
-      # Login or authentication token of a SonarQube user
-      login: c595b1ae1144a3ccd3b5fb493c0e98df3f03896c
-      # Password that goes with the sonar.login username. This should be left blank if an authentication token is being used.
-      password: # optional
+        # SonarQube server URL
+        host: http://18.224.24.91:9000/
+        # Set the sonar.projectBaseDir analysis property
+        projectBaseDir: # optional
+        # Login or authentication token of a SonarQube user
+        login: c595b1ae1144a3ccd3b5fb493c0e98df3f03896c
+        # Password that goes with the sonar.login username. This should be left blank if an authentication token is being used.
+        password: # optional
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
        name: madhu216/ecommerce
