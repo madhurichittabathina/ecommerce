@@ -34,7 +34,7 @@ jobs:
         # SonarQube server URL
         host: http://18.224.24.91:9000/
         # Set the sonar.projectBaseDir analysis property
-        projectBaseDir: # optional
+        projectBaseDir: # optional.
         # Login or authentication token of a SonarQube user
         login: c595b1ae1144a3ccd3b5fb493c0e98df3f03896c
         # Password that goes with the sonar.login username. This should be left blank if an authentication token is being used.
