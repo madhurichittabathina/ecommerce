@@ -32,7 +32,7 @@
     
   <sonar.projectKey>ecommerce</sonar.projectKey>
   <sonar.host.url>http://3.135.240.75:9000</sonar.host.url>
-  <sonar.login>fd8dd7d26e3a1d983a4021763adbe078a2d13495</sonar.login>
+  <sonar.login>9e5b61a798c656577ccc5c0b257fbc35f1cfb001</sonar.login>
 	  
   </properties>
 
