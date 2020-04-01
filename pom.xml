@@ -30,10 +30,9 @@
 
     <tomcat.version>7.0.47</tomcat.version>
     
-  <sonar.projectKey>madhurichittabathina_ecommerce</sonar.projectKey>
-  <sonar.organization>madhurichittabathina</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>852d12367d1c9b1c60cd2cd8790e0e86f0ca7138</sonar.login>
+  <sonar.projectKey>ecommerce</sonar.projectKey>
+  <sonar.host.url>http://3.135.240.75:9000</sonar.host.url>
+  <sonar.login>fd8dd7d26e3a1d983a4021763adbe078a2d13495</sonar.login>
 	  
   </properties>
 
