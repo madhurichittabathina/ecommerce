@@ -34,11 +34,11 @@ jobs:
       env:
        # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
        GITHUB_TOKEN: 9021b1208eda164e342460a4c9059c61e6fc10ec
-      run: sonar-scanner
-         -Dsonar.login=493cb8b8aba9bdbe6b3b9b7792d0b2a26614b776
-         -Dsonar.organization=madhurichittabathina
-         -Dsonar.host.url=https://sonarcloud.io
-         -Dsonar.projectKey=madhurichittabathina_ecommerce
+      run: mvn sonar:sonar \
+         -Dsonar.login=fd8dd7d26e3a1d983a4021763adbe078a2d13495
+         #-Dsonar.organization=madhurichittabathina
+         -Dsonar.host.url=http://3.135.240.75:9000 \
+         -Dsonar.projectKey=ecommerce \
          -Dsonar.exclusions=**/*.java,**/*.jar
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
