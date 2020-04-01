@@ -45,8 +45,8 @@ jobs:
        username: madhu216
        password: madhu216@216
        dockerfile: Dockerfile
-    - name: tomcat deploy
-      run: curl -v -u tomcat:tomcat -T /home/runner/work/ecommerce/ecommerce/target/ecommerce.war 'http://ec2-18-224-38-134.us-east-2.compute.amazonaws.com:8080//manager/text/deploy?path=/ecommerce.war'
+    # - name: tomcat deploy
+      # run: curl -v -u tomcat:tomcat -T /home/runner/work/ecommerce/ecommerce/target/ecommerce.war 'http://ec2-18-224-38-134.us-east-2.compute.amazonaws.com:8080//manager/text/deploy?path=/ecommerce.war'
     - name: MS Teams Action
       uses: FTsbrown/msteams-action@v1.0.1
       with:
